@@ -130,3 +130,35 @@
 .datalist_content {
     font-weight: 400;
 }
+
+
+
+@media screen and (max-width: 900px) {
+    .header_avatar {
+        height: 200px;
+        width: 200px;
+    }
+
+    .title_fio {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 22rem;
+    }
+
+    .header_avatar {
+        margin-bottom: 15px;
+    }
+
+    .title_fio, .title_qualification {
+        margin-left: 0;
+    }
+}
